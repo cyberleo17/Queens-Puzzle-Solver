@@ -10,7 +10,11 @@ How It Works
 The solver uses a recursive backtracking algorithm:
 
 1.Starting from the first row, it attempts to place a queen in a safe position on each column of that row.
+
 2.For each placement, it checks if the queen is safe from attacks from other queens already placed.
+
 3.If a safe position is found, it moves to the next row.
+
 4.If no safe position is available in a row, it backtracks to the previous row and moves the previously placed queen to the next possible position.
+
 5.This continues until all eight queens are placed on the board in non-attacking positions.
